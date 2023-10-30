@@ -71,7 +71,7 @@ body {
   font-size: 20px;
 }
 
-.profile_contact .profile_email {
+.profile_contact .link_left_side {
   text-decoration: none;
   color: white;
   display: flex;
@@ -79,12 +79,12 @@ body {
   font-size: 12px;
   padding-top: 5px;
 }
-.profile_email > i {
+.profile_email, .link_left_side > i {
   padding-left: 12px;
   padding-right: 5px;
 }
 
-.profile_email:hover {
+.profile_email:hover, .link_left_side:hover {
   color: blue;
 }
 
