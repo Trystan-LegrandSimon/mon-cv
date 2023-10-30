@@ -37,17 +37,9 @@ body {
   min-height: 1000px; */
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  color: white;
 }
 
-.container .right_side {
-  background: white;
-  padding: 40px;
-  width: 70%;
-  /* max-width: 1000px;
-  min-height: 1000px; */
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
 
 .profile_text {
   display: flex;
@@ -60,7 +52,7 @@ body {
 .profile_text .img_profile {
   height: 200px;
   width: 200px;
- 
+  margin-bottom: 20px;
 }
 
 .profile_text .img_profile img {
@@ -68,6 +60,19 @@ body {
   object-fit: cover;
   border-radius: 50%;
   overflow: hidden;
+}
+.profile_text h2 {
+  font-size: medium;
+}
+
+.container .right_side {
+  background: white;
+  padding: 40px;
+  width: 70%;
+  /* max-width: 1000px;
+  min-height: 1000px; */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 ::-webkit-scrollbar {
