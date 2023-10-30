@@ -25,7 +25,7 @@ header h1 {
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   margin: 50px;
   width: 100%;
   max-width: 1000px;
@@ -34,14 +34,16 @@ header h1 {
   box-shadow: 0 35px 55px;
 }
 
+.side {
+  display: flex;
+}
+
 .container .left_side {
   background: #130f40;
   padding: 40px;
   width: 40%;
   /* max-width: 300px;
   min-height: 1000px; */
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
   color: white;
 }
 
@@ -111,8 +113,6 @@ header h1 {
   width: 60%;
   /* max-width: 1000px;
   min-height: 1000px; */
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .right_side .projet_pro {
@@ -147,8 +147,34 @@ header h1 {
 }
 
 .right_side li span {
-  font-style: italic; /* Texte en italique pour les éléments "span" */
-  color: #777; /* Couleur du texte italique */
+  font-style: italic; 
+  color: #777;
+}
+
+/* Styles pour le footer */
+footer {
+  background-color: black;
+  width: 1000px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* Styles pour le bouton à l'intérieur du footer */
+footer button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 ::-webkit-scrollbar {
