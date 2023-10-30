@@ -1,3 +1,4 @@
+/* Rénitialisation du CSS */
 * {
   margin: 0;
   padding: 0;
@@ -99,10 +100,6 @@ body {
   padding-left: 22px;
 }
 
-
-
-
-
 /* Partie Droite */
 .container .right_side {
   background: white;
@@ -113,6 +110,35 @@ body {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+.right_side .formations {
+  padding-top: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_side .formations ul, .experiences ul {
+  padding-left: 50px;
+}
+
+
+.right_side h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.right_side li {
+  margin-bottom: 15px;
+  color: black;
+}
+
+.right_side li span {
+  font-style: italic; /* Texte en italique pour les éléments "span" */
+  color: #777; /* Couleur du texte italique */
+}
+
+
 
 ::-webkit-scrollbar {
   display: none;
