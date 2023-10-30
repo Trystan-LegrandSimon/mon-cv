@@ -86,8 +86,24 @@ body {
 
 .profile_email:hover, .link_left_side:hover {
   color: blue;
+  
 }
 
+.profile_soft_skills, .profile_competences, .profile_loisirs {
+  font-size: 12px;
+  padding-top: 5px;
+  
+}
+
+.profile_soft_skills > ul, .profile_competences > ul, .profile_loisirs > ul {
+  padding-left: 22px;
+}
+
+
+
+
+
+/* Partie Droite */
 .container .right_side {
   background: white;
   padding: 40px;
