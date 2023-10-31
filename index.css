@@ -1,8 +1,12 @@
+/* Import de la police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 /* Rénitialisation du CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Akaya Telivigala";
 }
 
 body {
@@ -30,7 +34,7 @@ header h1 {
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
-  grid: 1fr, 2fr;
+  /* grid: 1fr, 1fr; */
   box-shadow: 0 35px 55px;
 }
 
@@ -67,7 +71,13 @@ header h1 {
   object-fit: cover;
   border-radius: 50%;
   overflow: hidden;
+  transition: 1s;
 }
+
+.img_profile > img:hover {
+ transform: scale(1.5);
+}
+
 .left_side h1 {
   font-size: 30px;
   text-align: center;
