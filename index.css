@@ -29,12 +29,10 @@ header h1 {
 }
 
 .container {
-  /* display: flex; */
   margin: 50px;
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
-  /* grid: 1fr, 1fr; */
   box-shadow: 0 35px 55px;
 }
 
@@ -42,15 +40,12 @@ header h1 {
   display: flex;
 }
 
-.container .left_side {
+.left_side {
   background: #130f40;
   padding: 40px;
   width: 40%;
-  /* max-width: 300px;
-  min-height: 1000px; */
   color: white;
 }
-
 
 .profile_text {
   display: flex;
@@ -60,13 +55,7 @@ header h1 {
   border-bottom: 2px solid gray;
 }
 
-.profile_text .img_profile {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 20px;
-}
-
-.profile_text .img_profile img {
+.img_profile > img {
   width: 200px;
   object-fit: cover;
   border-radius: 50%;
@@ -88,21 +77,20 @@ header h1 {
   font-size: 25px;
 }
 
-.profile_contact .link_left_side {
+.link_left_side {
   text-decoration: none;
   color: white;
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 18px;
   padding-top: 5px;
 }
-.profile_email,
+
 .link_left_side > i {
   padding-left: 12px;
   padding-right: 5px;
 }
 
-.profile_email:hover,
 .link_left_side:hover {
   color: blue;
   
@@ -112,7 +100,7 @@ header h1 {
 .profile_competences,
 .profile_loisirs {
   font-size: 15px;
-  padding-top: 5px;
+  padding-top: 10px;
   
 }
 
@@ -120,6 +108,7 @@ header h1 {
 .profile_competences > ul,
 .profile_loisirs > ul {
   padding-left: 22px;
+  padding-top: 5px;
 }
 
 /* Partie Droite */
