@@ -96,23 +96,29 @@ header h1 {
   font-size: 15px;
   padding-top: 5px;
 }
-.profile_email, .link_left_side > i {
+.profile_email,
+.link_left_side > i {
   padding-left: 12px;
   padding-right: 5px;
 }
 
-.profile_email:hover, .link_left_side:hover {
+.profile_email:hover,
+.link_left_side:hover {
   color: blue;
   
 }
 
-.profile_soft_skills, .profile_competences, .profile_loisirs {
+.profile_soft_skills,
+.profile_competences,
+.profile_loisirs {
   font-size: 15px;
   padding-top: 5px;
   
 }
 
-.profile_soft_skills > ul, .profile_competences > ul, .profile_loisirs > ul {
+.profile_soft_skills > ul,
+.profile_competences > ul,
+.profile_loisirs > ul {
   padding-left: 22px;
 }
 
@@ -141,7 +147,8 @@ header h1 {
   flex-direction: column;
 }
 
-.right_side .formations ul, .experiences ul {
+.right_side .formations ul,
+.experiences ul {
   padding-left: 50px;
 }
 
