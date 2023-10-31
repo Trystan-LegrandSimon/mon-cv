@@ -187,6 +187,7 @@ footer button a {
   font-weight: bold;
 }
 
+/* On enlève la barre latéral de scroll */
 ::-webkit-scrollbar {
   display: none;
 }
